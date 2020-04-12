@@ -1,0 +1,54 @@
+2020-04-12 10:40:35.052  INFO 7324 --- [main] com.example.blog.BlogApplication         : Starting BlogApplication on LAPTOP-T072SSJU with PID 7324 (E:\JAVAlearning\blog\target\classes started by shadow in E:\JAVAlearning\blog)
+2020-04-12 10:40:35.055 DEBUG 7324 --- [main] com.example.blog.BlogApplication         : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-12 10:40:35.055  INFO 7324 --- [main] com.example.blog.BlogApplication         : The following profiles are active: dev
+2020-04-12 10:40:37.236  INFO 7324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-12 10:40:37.448  INFO 7324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171ms. Found 5 JPA repository interfaces.
+2020-04-12 10:40:38.409  INFO 7324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-12 10:40:38.416  INFO 7324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-12 10:40:38.417  INFO 7324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-12 10:40:38.598  INFO 7324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-12 10:40:38.598  INFO 7324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3396 ms
+2020-04-12 10:40:38.865  INFO 7324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-12 10:40:38.970  INFO 7324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-12 10:40:39.381  INFO 7324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-12 10:40:39.583  INFO 7324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-12 10:40:40.231  INFO 7324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-12 10:40:40.250  INFO 7324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-12 10:40:41.517  INFO 7324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-12 10:40:41.542  INFO 7324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-12 10:40:42.673  WARN 7324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-12 10:40:43.085  INFO 7324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-12 10:40:43.087  INFO 7324 --- [main] com.example.blog.BlogApplication         : Started BlogApplication in 9.05 seconds (JVM running for 10.715)
+2020-04-12 10:40:59.708  INFO 7324 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-12 10:40:59.708  INFO 7324 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-12 10:40:59.718  INFO 7324 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-12 21:28:38.044  INFO 17004 --- [main] com.example.blog.BlogApplication         : Starting BlogApplication on LAPTOP-T072SSJU with PID 17004 (E:\JAVAlearning\blog\target\classes started by shadow in E:\JAVAlearning\blog)
+2020-04-12 21:28:38.047 DEBUG 17004 --- [main] com.example.blog.BlogApplication         : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-12 21:28:38.047  INFO 17004 --- [main] com.example.blog.BlogApplication         : The following profiles are active: dev
+2020-04-12 21:28:38.550  INFO 17004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-12 21:28:38.629  INFO 17004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 5 JPA repository interfaces.
+2020-04-12 21:28:39.139  INFO 17004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-12 21:28:39.145  INFO 17004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-12 21:28:39.145  INFO 17004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-12 21:28:39.234  INFO 17004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-12 21:28:39.235  INFO 17004 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1119 ms
+2020-04-12 21:28:39.382  INFO 17004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-12 21:28:39.421  INFO 17004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-12 21:28:39.489  INFO 17004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-12 21:28:39.544  INFO 17004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-12 21:28:40.649  INFO 17004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-12 21:28:40.659  INFO 17004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-12 21:28:41.538  INFO 17004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-12 21:28:41.543  INFO 17004 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-12 21:28:42.399  WARN 17004 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-12 21:28:42.623  INFO 17004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-12 21:28:42.625  INFO 17004 --- [main] com.example.blog.BlogApplication         : Started BlogApplication in 5.01 seconds (JVM running for 5.911)
+2020-04-12 21:28:59.796  INFO 17004 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-12 21:28:59.796  INFO 17004 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-12 21:28:59.808  INFO 17004 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-04-12 21:28:59.830  INFO 17004 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Request : Requestlog{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-12 21:29:00.243  WARN 17004 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-12 21:29:00.312  WARN 17004 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-12 21:29:00.361  INFO 17004 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2020-04-12 21:29:00.905  INFO 17004 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Request : Requestlog{url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2020-04-12 21:29:00.931  INFO 17004 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
