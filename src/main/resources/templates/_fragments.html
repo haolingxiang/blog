@@ -39,6 +39,7 @@
     </a>
 </nav>
 
+<canvas id="canvas" width="1920" height="888" style="display: block; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1; opacity: 0.6;"></canvas>
 
 
 <!--底部footer-->
@@ -93,6 +94,7 @@
     <script>
         $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
     </script>
+    <script type="text/javascript" src="../static/js/canvas1.js" th:src="@{/js/canvas1.js}"></script>
 </th:block>
 
 </body>
